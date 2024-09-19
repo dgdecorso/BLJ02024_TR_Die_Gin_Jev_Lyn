@@ -1,30 +1,21 @@
 #include <stdio.h>
-
-void Hoch() {
+#include "exponent.h"
+int hoch() {
     int a;
 
-    printf("hochrechnen yippieeeee\n");
+    printf("hochrechnen\n");
     scanf("%d",&a);
     //scanf("%d",&b);
 
-    printf("%d^%d\n"),a , a, a * a;
+    printf("%d^%d = %d\n",a, a, a * a);
 
 
 
 
+    return a;
 }
 
 
 
 
 
-int main(void)
-{
-
-
-
-
-
-
-    return 0;
-}
