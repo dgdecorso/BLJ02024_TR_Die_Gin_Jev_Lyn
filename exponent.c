@@ -1,3 +1,14 @@
-//
-// Created by dgdec on 19.09.2024.
-//
+#include <stdio.h>
+
+int main(void)
+{
+    int n;
+    int n;
+
+    
+
+
+
+
+    return 0;
+}
