@@ -5,6 +5,6 @@
 -- Check for working C compiler: C:/MyTool/CLion 2024.2.1/bin/mingw/bin/gcc.exe - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
--- Configuring done (1.6s)
+-- Configuring done (1.3s)
 -- Generating done (0.0s)
 -- Build files have been written to: C:/Projects/BLJ02024_TR_Die_Gin_Jev_Lyn/cmake-build-debug
