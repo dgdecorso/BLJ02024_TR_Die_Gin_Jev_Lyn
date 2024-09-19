@@ -11,6 +11,6 @@ int main(void) {
     scanf("%d", &num2);
     printf("%d + %d = %d"); num, num2, num + num2;
 
-printf("testcnh3   asfasfa ndfjbhj")
+printf("test")
     return 0;
 }
