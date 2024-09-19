@@ -1,3 +1,3 @@
-C:/github/BLJ02024_TR_Die_Gin_Jev_Lyn/cmake-build-debug/CMakeFiles/BLJ2024_TR_Die_Gin_Jev_Lyn.dir
-C:/github/BLJ02024_TR_Die_Gin_Jev_Lyn/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/github/BLJ02024_TR_Die_Gin_Jev_Lyn/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Projects/BLJ02024_TR_Die_Gin_Jev_Lyn/cmake-build-debug/CMakeFiles/BLJ2024_TR_Die_Gin_Jev_Lyn.dir
+C:/Projects/BLJ02024_TR_Die_Gin_Jev_Lyn/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Projects/BLJ02024_TR_Die_Gin_Jev_Lyn/cmake-build-debug/CMakeFiles/rebuild_cache.dir
