@@ -1,3 +1,0 @@
-"C:\MyTools\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\BLJ2024_TR_Die_Gin_Jev_Lyn.dir/objects.a
-C:\MyTools\CLION2~1.1\bin\mingw\bin\ar.exe qc CMakeFiles\BLJ2024_TR_Die_Gin_Jev_Lyn.dir/objects.a @CMakeFiles\BLJ2024_TR_Die_Gin_Jev_Lyn.dir\objects1.rsp
-C:\MyTools\CLION2~1.1\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\BLJ2024_TR_Die_Gin_Jev_Lyn.dir/objects.a -Wl,--no-whole-archive -o BLJ2024_TR_Die_Gin_Jev_Lyn.exe -Wl,--out-implib,libBLJ2024_TR_Die_Gin_Jev_Lyn.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BLJ2024_TR_Die_Gin_Jev_Lyn.dir\linkLibs.rsp

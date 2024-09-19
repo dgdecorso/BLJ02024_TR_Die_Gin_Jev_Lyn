@@ -65,6 +65,14 @@ build CMakeFiles/BLJ2024_TR_Die_Gin_Jev_Lyn.dir/exponent.c.obj: C_COMPILER__BLJ2
   TARGET_COMPILE_PDB = CMakeFiles\BLJ2024_TR_Die_Gin_Jev_Lyn.dir\
   TARGET_PDB = BLJ2024_TR_Die_Gin_Jev_Lyn.pdb
 
+build CMakeFiles/BLJ2024_TR_Die_Gin_Jev_Lyn.dir/wurzeln.c.obj: C_COMPILER__BLJ2024_TR_Die_Gin_Jev_Lyn_unscanned_Debug C$:/Projects/BLJ02024_TR_Die_Gin_Jev_Lyn/wurzeln.c || cmake_object_order_depends_target_BLJ2024_TR_Die_Gin_Jev_Lyn
+  DEP_FILE = CMakeFiles\BLJ2024_TR_Die_Gin_Jev_Lyn.dir\wurzeln.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BLJ2024_TR_Die_Gin_Jev_Lyn.dir
+  OBJECT_FILE_DIR = CMakeFiles\BLJ2024_TR_Die_Gin_Jev_Lyn.dir
+  TARGET_COMPILE_PDB = CMakeFiles\BLJ2024_TR_Die_Gin_Jev_Lyn.dir\
+  TARGET_PDB = BLJ2024_TR_Die_Gin_Jev_Lyn.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target BLJ2024_TR_Die_Gin_Jev_Lyn
@@ -73,7 +81,7 @@ build CMakeFiles/BLJ2024_TR_Die_Gin_Jev_Lyn.dir/exponent.c.obj: C_COMPILER__BLJ2
 #############################################
 # Link the executable BLJ2024_TR_Die_Gin_Jev_Lyn.exe
 
-build BLJ2024_TR_Die_Gin_Jev_Lyn.exe: C_EXECUTABLE_LINKER__BLJ2024_TR_Die_Gin_Jev_Lyn_Debug CMakeFiles/BLJ2024_TR_Die_Gin_Jev_Lyn.dir/main.c.obj CMakeFiles/BLJ2024_TR_Die_Gin_Jev_Lyn.dir/exponent.c.obj
+build BLJ2024_TR_Die_Gin_Jev_Lyn.exe: C_EXECUTABLE_LINKER__BLJ2024_TR_Die_Gin_Jev_Lyn_Debug CMakeFiles/BLJ2024_TR_Die_Gin_Jev_Lyn.dir/main.c.obj CMakeFiles/BLJ2024_TR_Die_Gin_Jev_Lyn.dir/exponent.c.obj CMakeFiles/BLJ2024_TR_Die_Gin_Jev_Lyn.dir/wurzeln.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\BLJ2024_TR_Die_Gin_Jev_Lyn.dir

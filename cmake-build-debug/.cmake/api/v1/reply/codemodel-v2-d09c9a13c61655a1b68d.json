@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/BLJ02024_TR_Die_Gin_Jev_Lyn/cmake-build-debug",
-		"source" : "C:/BLJ02024_TR_Die_Gin_Jev_Lyn"
+		"build" : "C:/Projects/BLJ02024_TR_Die_Gin_Jev_Lyn/cmake-build-debug",
+		"source" : "C:/Projects/BLJ02024_TR_Die_Gin_Jev_Lyn"
 	},
 	"version" : 
 	{

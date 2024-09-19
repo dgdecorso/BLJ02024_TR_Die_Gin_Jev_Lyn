@@ -1,11 +1,24 @@
 #include <stdio.h>
 
+void main() {
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
 int main(void)
 {
-    int n;
-    int n;
 
-    
+
 
 
 
