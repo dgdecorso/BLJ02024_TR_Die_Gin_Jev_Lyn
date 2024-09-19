@@ -4,4 +4,5 @@ project(BLJ2024_TR_Die_Gin_Jev_Lyn C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(BLJ2024_TR_Die_Gin_Jev_Lyn main.c
-        exponent.c)
+        exponent.c
+        wurzeln.c)

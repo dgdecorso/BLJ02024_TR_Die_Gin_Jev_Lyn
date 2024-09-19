@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "BLJ2024_TR_Die_Gin_Jev_Lyn::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-BLJ2024_TR_Die_Gin_Jev_Lyn-Debug-b02b9ba13a998eb9d713.json",
+					"jsonFile" : "target-BLJ2024_TR_Die_Gin_Jev_Lyn-Debug-9f261afb68a7ec04264b.json",
 					"name" : "BLJ2024_TR_Die_Gin_Jev_Lyn",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Projects/BLJ02024_TR_Die_Gin_Jev_Lyn/cmake-build-debug",
-		"source" : "C:/Projects/BLJ02024_TR_Die_Gin_Jev_Lyn"
+		"build" : "C:/BLJ02024_TR_Die_Gin_Jev_Lyn/cmake-build-debug",
+		"source" : "C:/BLJ02024_TR_Die_Gin_Jev_Lyn"
 	},
 	"version" : 
 	{
