@@ -8,4 +8,5 @@ add_executable(BLJ2024_TR_Die_Gin_Jev_Lyn main.c
         fakultaet.c
         plusminus.c
         exponent.c
-        exponent.h)
+        exponent.h
+        fakultaet.h)

@@ -4,5 +4,5 @@
 
 #ifndef FAKULTAET_H
 #define FAKULTAET_H
-
-#endif FAKULTAET_H
+int hoch();
+#endif //FAKULTAET_H
