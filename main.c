@@ -18,9 +18,9 @@ int operator;
 
 
     switch (operator) {
-        case 1:hoch(); break;
-        case 2: double square(); break;
-        case 3: fakultaet1();break;
+        case '1': hoch(); break;
+        case '2': double square(); break;
+        case '3': fakultaet1();break;
 
     }
 
