@@ -2,6 +2,7 @@
 
 double printWurzel(double square);
 
+<<<<<<< Updated upstream
 
 
 int main(void) {
@@ -14,6 +15,8 @@ int main(void) {
     return 0;
 }
 
+=======
+>>>>>>> Stashed changes
 double printWurzel(double square) {
 
     double root = square/3;
