@@ -2,8 +2,8 @@
 
 
 
-double printWurzel(double square) {
-
+double printWurzel() {
+double square = 0;
     printf("Gib eine Zahl ein\n");
     scanf("%lf", &square);
     double root = square/3;
