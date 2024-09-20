@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-double printWurzel(double square);
 
 
 
