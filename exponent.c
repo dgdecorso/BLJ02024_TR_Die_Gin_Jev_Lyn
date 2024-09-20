@@ -1,21 +1,20 @@
 #include <stdio.h>
 #include "exponent.h"
-int hoch() {
-    int a;
 
-    printf("hochrechnen\n");
-    scanf("%d",&a);
-    //scanf("%d",&b);
-
-    printf("%d^%d = %d\n",a, a, a * a);
-
-
+int hoch () {
+int result = 1;
+    printf("First Number and second number\n");
+   int base;
+   int exponent;
+    scanf("%d", &base);
+    scanf("%d", &exponent);
 
 
-    return a;
+    for (int i = 0; i < exponent; i++) {
+        result = result * base;
+
+
+    }
+    printf("%d\n", result);
+    return result;
 }
-
-
-
-
-
