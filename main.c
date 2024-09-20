@@ -2,7 +2,7 @@
 
 #include "exponent.h"
 #include "wurzeln.h"
-
+#include "fakultaet.h"
 
 
 int main(void) {
@@ -18,10 +18,9 @@ int operator;
 
 
     switch (operator) {
-case 1:
-    hoch(); break;
+        case 1:hoch(); break;
         case 2: double square(); break;
-
+        case 3: fakultaet1();break;
 
     }
 
