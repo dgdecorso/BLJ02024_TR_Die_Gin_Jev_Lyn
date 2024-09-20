@@ -4,5 +4,5 @@
 
 #ifndef PLUSMINUS_H
 #define PLUSMINUS_H
-int plusminus()
+int plusminus();
 #endif //PLUSMINUS_H
