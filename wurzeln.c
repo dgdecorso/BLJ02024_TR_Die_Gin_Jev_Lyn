@@ -2,7 +2,6 @@
 
 
 
-
 double printWurzel(double square) {
 
     printf("Gib eine Zahl ein\n");
@@ -12,6 +11,8 @@ double printWurzel(double square) {
     if (square <= 0) return 0;
     for (i = 0; i < 32 ; i++)
         root = (root + square / root) / 2;
+
+    printf("%lf\n", root);
     return root;
 
 }
