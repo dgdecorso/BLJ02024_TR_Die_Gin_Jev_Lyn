@@ -8,7 +8,7 @@ double printWurzel(double square);
 int main(void) {
     double square;
     printf("Enter a number: ");
-    scanf("%le", &square);
+    scanf("%le",&square);
     //double result = printWurzel(square);
 
     printf("%.2f\n", printWurzel(square));
