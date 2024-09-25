@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include "plusminus.h"
 
 int plusminus()
 {
-        float erg = 0.0, zahl1, zahl2;
+        float erg, zahl1, zahl2 = 0.0;
         char op;
 
         printf("Zahl1: ");

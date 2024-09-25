@@ -4,5 +4,5 @@
 
 #ifndef SCHERESTPI_H
 #define SCHERESTPI_H
-int stpi();
+void stpi();
 #endif //SCHERESTPI_H
