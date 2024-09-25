@@ -7,10 +7,10 @@
 #include <stdio.h>
 
 
-float bmi () {
+void bmi () {
  float weight;
  float height;
-float bmi;
+
 
 printf("Enter Weight in KG: \n");
 

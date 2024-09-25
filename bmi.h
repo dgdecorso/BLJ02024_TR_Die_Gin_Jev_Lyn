@@ -4,5 +4,5 @@
 
 #ifndef BMI_H
 #define BMI_H
-float bmi ();
+void bmi ();
 #endif //BMI_H
