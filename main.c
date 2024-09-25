@@ -45,18 +45,18 @@ char y = 'y';
             case 5:
                 stpi();
             break;
-<<<<<<< Updated upstream
+
             default:
                 printf("Try again\n");
                 break;
-=======
+
             case 6:
                 bmi();
             break;
 
 
 
->>>>>>> Stashed changes
+
         }
 
         printf("New Operation? (Y/N)\n");
