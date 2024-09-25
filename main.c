@@ -56,7 +56,10 @@ char y = 'y';
 
 
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
         }
 
         printf("New Operation? (Y/N)\n");
