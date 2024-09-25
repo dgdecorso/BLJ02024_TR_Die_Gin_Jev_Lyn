@@ -8,14 +8,14 @@
 
 int num();
 
-int fakultaet1() {
+void fakultaet1() {
     int number;
     int result;
     printf("Whats your number?\n");
     scanf("%d", &number);
     result = num(number);
+printf("%d\n", result);
 
-    return result;
 }
 
 int num(int number) {
