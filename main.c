@@ -4,7 +4,7 @@
 #include "fakultaet.h"
 #include "plusminus.h"
 #include "scherestpi.h"
-
+#include "bmi.h"
 
 void main(void) {
     printf(" ________  ________  ___       ________  ___  ___  ___       ________  _________  ________  ________     \n");
@@ -22,7 +22,7 @@ char y = 'y';
 
 
 
-        printf("\nEnter operator 1 for +-*/ ,2 for ^ ,3 for root,4 for faculty,5 for Rock Paper Scissors\n");
+        printf("\nEnter operator 1 for +-*/ ,2 for ^ ,3 for root,4 for faculty,5 for Rock Paper Scissors, 6 for BMI\n");
 
         int operator;
         scanf("%d", &operator);
@@ -45,9 +45,18 @@ char y = 'y';
             case 5:
                 stpi();
             break;
+<<<<<<< Updated upstream
             default:
                 printf("Try again\n");
                 break;
+=======
+            case 6:
+                bmi();
+            break;
+
+
+
+>>>>>>> Stashed changes
         }
 
         printf("New Operation? (Y/N)\n");

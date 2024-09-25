@@ -13,4 +13,6 @@ add_executable(BLJ2024_TR_Die_Gin_Jev_Lyn main.c
         plusminus.h
         scherestpi.c
         scherestpi.h
+        bmi.c
+        bmi.h
 )
