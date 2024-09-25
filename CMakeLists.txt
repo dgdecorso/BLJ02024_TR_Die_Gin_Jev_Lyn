@@ -11,5 +11,6 @@ add_executable(BLJ2024_TR_Die_Gin_Jev_Lyn main.c
         exponent.h
         fakultaet.h
         plusminus.h
-        schpi.c
-        schpi.h)
+        scherestpi.c
+        scherestpi.h
+)

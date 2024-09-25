@@ -1,0 +1,34 @@
+//
+// Created by dgdec on 20.09.2024.
+//
+
+#include "scherestpi.h"
+#include <inttypes.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int stpi() {
+    srand(time(NULL));
+
+    int min = 1;
+    int max = 3;
+    int guess;
+
+    printf("Please enter a number between 1 and 3 ROCK = 1 PAPER = 2 SCISSORS = 3: \n");
+
+    int random = rand() % (max - min) + min;
+    scanf("%d", &guess);
+
+    if (guess == random) {
+        printf("Its a tie\n");
+    }
+    if ((guess == 1 && random == 3) || (guess == 3 && random == 2) || (guess == 2 && random == 1)) {
+        printf("YOU WON YAAAYYY\n");
+    }
+
+    if ((guess == 1 && random == 2) || (guess == 2 && random == 3) || (guess == 3 && random == 1)) {
+        printf("YOU LOST\n");
+    }
+    printf("%d\n"), random;
+}
