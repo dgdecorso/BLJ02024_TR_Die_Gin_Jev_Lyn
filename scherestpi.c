@@ -18,6 +18,7 @@ int stpi() {
     printf("Please enter a number between 1 and 3 ROCK = 1 PAPER = 2 SCISSORS = 3: \n");
 
     int random = rand() % (max - min) + min;
+    printf("%d"), random;
     scanf("%d", &guess);
 
     if (guess == random) {
