@@ -6,7 +6,7 @@ int result = 1;
     printf("First Number and second number\n");
    int base;
    int exponent;
-    scanf("%d", &base);
+    scanf("%d\n", &base);
     scanf("%d", &exponent);
 
 

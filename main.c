@@ -1,4 +1,3 @@
-#include <inttypes.h>
 #include <stdio.h>
 #include "exponent.h"
 #include "wurzeln.h"
@@ -7,7 +6,7 @@
 #include "scherestpi.h"
 
 
-int main(void) {
+void main(void) {
     printf(" ________  ________  ___       ________  ___  ___  ___       ________  _________  ________  ________     \n");
     printf("|\\   ____\\|\\   __  \\|\\  \\     |\\   ____\\|\\  \\|\\  \\|\\  \\     |\\   __  \\|\\___   ___\\\\   __  \\|\\   __  \\    \n");
     printf("\\ \\  \\___|\\ \\  \\|\\  \\ \\  \\    \\ \\  \\___|\\ \\  \\\\\\  \\ \\  \\    \\ \\  \\|\\  \\|___ \\  \\_\\ \\  \\|\\  \\ \\  \\|\\  \\   \n");
@@ -46,11 +45,14 @@ char y = 'y';
             case 5:
                 stpi();
             break;
+            default:
+                printf("Try again\n");
+                break;
         }
 
-        printf("New Operation? (Y/N)");
+        printf("New Operation? (Y/N)\n");
         scanf("%s", &y);
     } while (y == 'y' || y == 'Y');
 
-    return 0;
+
 }

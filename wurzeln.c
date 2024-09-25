@@ -4,7 +4,7 @@
 
 double printWurzel() {
 double square = 0;
-    printf("Gib eine Zahl ein\n");
+    printf("Enter a number\n");
     scanf("%lf", &square);
     double root = square/3;
 if (square <= 0) return 0;

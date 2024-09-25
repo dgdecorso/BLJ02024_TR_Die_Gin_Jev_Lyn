@@ -10,10 +10,10 @@ int num();
 
 void fakultaet1() {
     int number;
-    int result;
+
     printf("Whats your number?\n");
     scanf("%d", &number);
-    result = num(number);
+   int result = num(number);
 printf("%d\n", result);
 
 }

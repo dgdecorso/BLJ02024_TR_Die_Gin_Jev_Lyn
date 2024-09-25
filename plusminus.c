@@ -6,12 +6,12 @@ int plusminus()
         float erg, zahl1, zahl2 = 0.0;
         char op;
 
-        printf("Zahl1: ");
+        printf("Number 1:\n");
         scanf("%f", &zahl1);
-        printf("Zahl2: ");
+        printf("Number 2:\n");
         scanf("%f", &zahl2);
 
-        printf("Operator (+ - x /): ");
+        printf("Operator (+ - x /):\n");
         scanf(" %c", &op);
 
         switch (op) {
@@ -28,16 +28,16 @@ int plusminus()
                         if (zahl2 != 0)
                                 erg = zahl1 / zahl2;
                         else {
-                                printf("Fehler: Division durch 0!\n");
+                                printf("Error!\n");
                                 return -1;
                         }
                 break;
                 default:
-                        printf("Fehler: Ungueltiger Operator!\n");
+                        printf("Error: not a valid operator!\n");
                 return -1;
         }
 
-        printf("Ergebnis: %f\n", erg);
+        printf("Result: %f\n", erg);
 
         return 0;
 }
