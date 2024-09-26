@@ -1,3 +1,4 @@
+#include <inttypes.h>
 #include <stdio.h>
 #include "exponent.h"
 #include "wurzeln.h"
@@ -22,7 +23,13 @@ char y = 'y';
 
 
 
-        printf("\nEnter operator 1 for +-*/ ,2 for ^ ,3 for root,4 for faculty,5 for Rock Paper Scissors, 6 for BMI\n");
+        printf("\nEnter operator \n1 for +-*/\n");
+        printf("2 for ^ \n");
+        printf("3 for root\n");
+        printf("4 for faculty\n");
+        printf("5 for Rock Paper Scissors\n");
+        printf("6 for BMI\n");
+
 
         int operator;
         scanf("%d", &operator);
