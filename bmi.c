@@ -9,7 +9,6 @@
 void bmi () {
     float weight;
     float height;
-    float bmi;
 
     printf("Enter Weight in KG: \n");
 
@@ -17,9 +16,8 @@ void bmi () {
 
     printf("Enter Height in Meters: \n");
     scanf("%f", &height);
-    bmi = weight / (height * height);
+    float bmi = weight / (height * height);
     printf("Your BMI score: %f\n", bmi);
-
 
     if (bmi < 18.5) {
         printf("You're Underweight\n");
