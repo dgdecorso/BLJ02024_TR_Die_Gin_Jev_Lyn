@@ -1,6 +1,3 @@
-//
-// Created by dgdec on 25.09.2024.
-//
 
 #include "bmi.h"
 #include <stdio.h>

@@ -1,6 +1,4 @@
-//
-// Created by dgdec on 20.09.2024.
-//
+
 
 #include "scherestpi.h"
 #include <inttypes.h>
